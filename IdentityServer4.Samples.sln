@@ -7,9 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quickstarts", "Quickstarts"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResourceOwnerPassword", "ResourceOwnerPassword", "{FC5255F3-F8E6-4BD6-AB28-EDF4C42CBBA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Quickstarts\ResourceOwnerPassword\Server\Server.csproj", "{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Quickstarts\ResourceOwnerPassword\Server\Server.csproj", "{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Quickstarts\ResourceOwnerPassword\Client\Client.csproj", "{C71A5166-419E-4935-B240-0E06FDBE7513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Quickstarts\ResourceOwnerPassword\Client\Client.csproj", "{C71A5166-419E-4935-B240-0E06FDBE7513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImplicitFlowAuthentication", "ImplicitFlowAuthentication", "{BE922BE6-5D06-4C22-8D04-CC44E288A19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "Quickstarts\ImplicitFlowAuthentication\IdentityServer\IdentityServer.csproj", "{1E4B9EE9-A91B-4B9A-A1BC-59C67BFE0439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "Quickstarts\ImplicitFlowAuthentication\MvcClient\MvcClient.csproj", "{7478485F-C1C2-4377-86CB-A23F85BA908C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,13 +24,19 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C71A5166-419E-4935-B240-0E06FDBE7513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C71A5166-419E-4935-B240-0E06FDBE7513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C71A5166-419E-4935-B240-0E06FDBE7513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C71A5166-419E-4935-B240-0E06FDBE7513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4B9EE9-A91B-4B9A-A1BC-59C67BFE0439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4B9EE9-A91B-4B9A-A1BC-59C67BFE0439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4B9EE9-A91B-4B9A-A1BC-59C67BFE0439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4B9EE9-A91B-4B9A-A1BC-59C67BFE0439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7478485F-C1C2-4377-86CB-A23F85BA908C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7478485F-C1C2-4377-86CB-A23F85BA908C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7478485F-C1C2-4377-86CB-A23F85BA908C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7478485F-C1C2-4377-86CB-A23F85BA908C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +45,9 @@ Global
 		{FC5255F3-F8E6-4BD6-AB28-EDF4C42CBBA2} = {EEFC164C-864A-4B37-B0C1-DFFA44A869F9}
 		{E2445C7A-2E21-46AB-9AEB-11E4C1998FAD} = {FC5255F3-F8E6-4BD6-AB28-EDF4C42CBBA2}
 		{C71A5166-419E-4935-B240-0E06FDBE7513} = {FC5255F3-F8E6-4BD6-AB28-EDF4C42CBBA2}
+		{BE922BE6-5D06-4C22-8D04-CC44E288A19A} = {EEFC164C-864A-4B37-B0C1-DFFA44A869F9}
+		{1E4B9EE9-A91B-4B9A-A1BC-59C67BFE0439} = {BE922BE6-5D06-4C22-8D04-CC44E288A19A}
+		{7478485F-C1C2-4377-86CB-A23F85BA908C} = {BE922BE6-5D06-4C22-8D04-CC44E288A19A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21086518-2752-435A-9934-390E2B9899AA}
